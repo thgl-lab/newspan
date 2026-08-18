@@ -1,0 +1,71 @@
+:root {
+  --paper: #fbf7ee;
+  --paper-raised: #fffdf8;
+  --ink: #262233;
+  --ink-soft: #605b72;
+  --pine: #2f5d50;
+  --pine-dark: #234840;
+  --amber: #cf8a3f;
+  --rose: #b95a63;
+  --line: #e7dfce;
+  --line-strong: #d8cdb4;
+
+  --radius-card: 14px;
+  --radius-pill: 999px;
+
+  --font-display: "Song Myung", "Noto Serif KR", serif;
+  --font-body: "Pretendard Variable", Pretendard, -apple-system,
+    BlinkMacSystemFont, "Malgun Gothic", sans-serif;
+
+  --max-width: 880px;
+  --max-width-narrow: 640px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+input {
+  font-family: inherit;
+}
+
+mark.highlight {
+  background: none;
+  color: var(--amber);
+  font-weight: 700;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}

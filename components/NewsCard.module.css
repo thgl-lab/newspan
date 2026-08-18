@@ -1,0 +1,75 @@
+.card {
+  position: relative;
+  background: var(--paper-raised);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-card);
+  overflow: hidden;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(38, 34, 51, 0.08);
+}
+
+.cutline {
+  position: relative;
+  border-bottom: 1.5px dashed var(--line-strong);
+  height: 0;
+}
+
+.clip {
+  position: absolute;
+  top: -13px;
+  left: 18px;
+  font-size: 1.15rem;
+  transform: rotate(-25deg);
+  filter: grayscale(0.3);
+}
+
+.link {
+  display: block;
+  padding: 22px 20px 18px;
+}
+
+.meta {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.78rem;
+  color: var(--ink-soft);
+  margin-bottom: 8px;
+}
+
+.source {
+  font-weight: 600;
+}
+
+.dot {
+  opacity: 0.6;
+}
+
+.title {
+  margin: 0 0 8px;
+  font-size: 1.05rem;
+  line-height: 1.4;
+  font-weight: 700;
+  color: var(--ink);
+}
+
+.description {
+  margin: 0 0 12px;
+  font-size: 0.88rem;
+  line-height: 1.55;
+  color: var(--ink-soft);
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.readMore {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--pine);
+}

@@ -1,0 +1,17 @@
+{
+  "name": "newspan",
+  "version": "1.0.0",
+  "private": true,
+  "description": "뉴스판 — 네이버 뉴스 검색 API 기반 개인용 뉴스 검색 웹사이트",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "^16.3.1",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  }
+}

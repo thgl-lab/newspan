@@ -1,0 +1,28 @@
+.wrapper {
+  max-width: var(--max-width-narrow);
+  margin: 0 auto;
+  padding: 64px 20px;
+  text-align: center;
+}
+
+.icon {
+  font-size: 2rem;
+  margin: 0 0 12px;
+}
+
+.title {
+  margin: 0 0 8px;
+  font-size: 1.05rem;
+  color: var(--ink);
+}
+
+.title strong {
+  color: var(--pine);
+}
+
+.hint {
+  margin: 0;
+  font-size: 0.88rem;
+  color: var(--ink-soft);
+  line-height: 1.6;
+}

@@ -1,0 +1,40 @@
+.wrapper {
+  max-width: var(--max-width-narrow);
+  margin: 0 auto;
+  padding: 64px 20px;
+  text-align: center;
+}
+
+.icon {
+  font-size: 2rem;
+  margin: 0 0 12px;
+}
+
+.title {
+  margin: 0 0 6px;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--rose);
+}
+
+.message {
+  margin: 0 0 20px;
+  font-size: 0.88rem;
+  color: var(--ink-soft);
+  line-height: 1.6;
+}
+
+.retryButton {
+  padding: 10px 24px;
+  border: none;
+  border-radius: var(--radius-pill);
+  background: var(--rose);
+  color: var(--paper-raised);
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: background 0.15s ease;
+}
+
+.retryButton:hover {
+  background: #a04952;
+}
